@@ -13,6 +13,9 @@
                 <TextCell Text="{Binding}">
                     <TextCell.ContextActions>
                         <MenuItem Text="remove" />
+                        <MenuItem Text="rename" />
+                        <MenuItem Text="view" />
+                        <MenuItem Text="open with" />
                     </TextCell.ContextActions>
                 </TextCell>
             </DataTemplate>
